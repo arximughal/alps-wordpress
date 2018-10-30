@@ -20,7 +20,7 @@
       <?php endif; ?>
       <div class="spacing--half">
         <h2 class="font--tertiary--l theme--primary-text-color pad pad-double--top pad-half--btm">
-          <?php echo __('All Posts'); ?>
+          <?php _('All Posts'); ?>
         </h2>
         <hr>
       </div>
