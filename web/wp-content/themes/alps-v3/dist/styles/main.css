@@ -14,6 +14,19 @@
   width: inherit;
 }
 
+.text blockquote p {
+  text-indent: 0;
+}
+
+.text blockquote p::before {
+  position: relative;
+  left: 0;
+}
+
+.text blockquote br:last-child {
+  display: none;
+}
+
 .c-widget li {
   padding-bottom: 5px;
   padding-left: 20px;
